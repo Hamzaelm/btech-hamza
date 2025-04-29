@@ -1,0 +1,63 @@
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  color: #ffd700;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Images, buttons, and inputs are responsive */
+img,
+button,
+input,
+textarea {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  word-wrap: break-word;
+}
+
+/* Responsive container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Responsive tables if needed */
+table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 85%;
+  }
+}
